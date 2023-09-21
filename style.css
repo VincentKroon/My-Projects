@@ -1,0 +1,129 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    background-color: #ce000c;
+}
+
+main {
+    padding: 20px;
+}
+
+
+/* Style die gebrurikt wordt op de inlog pagina */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 91px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    padding: 40px;
+    border: 2px solid;
+    border-radius: 10px;
+  }
+  
+  .white-h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  label {
+    margin-top: 20px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  input[type="submit"] {
+    background-color: #ce000c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    opacity: 1;
+  }
+  
+  input[type="submit"]:hover {
+    /* background-color: #ce000c; */
+    opacity: 0.8;
+    transition: 0.4s ease-in-out;
+  }
+
+
+/* Style die gebruikt wordt op de welkom pagina */
+.container {
+    max-width: 657px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    border: 3px solid;
+    border-radius: 17px;
+    padding: 25px;
+  }
+     
+  a {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #ce000c;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 11px;
+  }
+  
+  a {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    color: white;
+    text-decoration: none;
+  }
+  
+    a:hover {
+    background-color: white;
+    transition: 0.4s ease-in-out;
+    color: black;
+  }
+  
+  /* Styling voor de crud pagina's */
+
+  p {
+    color: #fff;
+    text-align: center;
+  }
+
+
+  .backtohome {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border: 2px solid black;
+    color: white;
+    text-decoration: none;
+  }
