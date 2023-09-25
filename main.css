@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    color: white;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+h2{
+    color: white;
+    background-color: royalblue;
+}
+
+h3{
+    background-color: royalblue;
+    text-align: center;
+}
+.reset{
+    position: absolute;
+    top: 95vh;
+    left: 50%;
+    border: 1px solid black;
+    width: 5rem;
+    text-align: center;
+    font-size: 20px;
+}
+
+.game{
+    position: absolute;
+    top: 4rem;
+    left: 50%;
+    transform: translate(-50%);
+    width: 650px;
+    height: 600px;
+    background-color: royalblue;
+    border: 1px solid black;
+    box-shadow: 5px 5px black;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
+.slot{
+    width: 90px;
+    height: 90px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+body{
+    background-image: url("gameachtergrond.jpg");
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link-as-button{
+    margin-left: 41%;
+    margin-top: 200px;
+    margin-right: 470px;
+    text-decoration: none;
+    padding: 1em 2em;
+    background-color: royalblue;
+    color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.reset {
+    font-size: 70px;
+    cursor: pointer;
+    width: 300px;
+    color: lightgray;
+    border: solid blue 2px;
+}
+
+
+.index{
+    margin-left: 500px;
+    margin-top: 200px;
+    margin-right: 470px;
+    background-color: royalblue;
+    border: 1px solid black;
+    padding: 1em 2em;
+    font-size: 20px;
+    border-radius: 15px;
+
+}
+
+.hallo{
+    text-align: center;
+}
+
+.registreer{
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
